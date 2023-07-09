@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:antiquewhite;
+    width: 100%;
+}
+#hero{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    grid-row-gap: 1rem;
+    margin: 1rem 0;
+}
+.img img{
+    object-fit: cover;
+    height:250px; 
+    width:400px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 10px;
+    transition: all 0.5s ease;
+}
+.img img:hover{
+    transform: scale(1.05);
+}
